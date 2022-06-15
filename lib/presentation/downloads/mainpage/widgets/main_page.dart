@@ -24,7 +24,7 @@ class ScreeenMainPage extends StatelessWidget {
     return Scaffold(
       appBar:PreferredSize(
         preferredSize: Size.fromHeight(50),
-        child:AppBarWidget()),
+        child:AppBarWidget(title: "Downloads",)),
       body:SafeArea(
         child: ValueListenableBuilder(valueListenable: indexChangeNotifier,builder: (context,int index ,child){
           return _pages[index];
