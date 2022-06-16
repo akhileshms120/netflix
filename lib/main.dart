@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:netflix/core/colors/colors.dart';
 
 import 'package:netflix/presentation/downloads/mainpage/widgets/main_page.dart';
+import 'package:netflix/presentation/downloads/screen_download.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
           
         ), )
       ),
-      home: ScreeenMainPage()
+      home: ScreenDownload()
     );
   }
 }
