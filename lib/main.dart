@@ -4,6 +4,7 @@ import 'package:netflix/core/colors/colors.dart';
 
 import 'package:netflix/presentation/downloads/mainpage/widgets/main_page.dart';
 import 'package:netflix/presentation/downloads/screen_download.dart';
+import 'package:netflix/presentation/search/search.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
           
         ), )
       ),
-      home: ScreenDownload()
+      home: Search()
     );
   }
 }
